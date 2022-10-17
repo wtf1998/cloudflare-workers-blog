@@ -13,8 +13,8 @@ const OPT = {
     "recentlySize" : 6,//最近文章数
     "readMoreLength":150,//阅读更多截取长度	
     "cacheTime" : 60*60*24*0.5, //网页缓存时长(秒),建议=文章更新频率
-    "themeURL" : ""themeURL" : "https://raw.githubusercontent.com/gdtool/cloudflare-workers-blog/master/themes/JustNews/",
-", // 模板地址,以 "/"" 结尾
+    "themeURL" : "themeURL" : "https://raw.githubusercontent.com/gdtool/cloudflare-workers-blog/master/themes/JustNews/",
+", // 模板地址,以 "/" 结尾
     "html404" : `<b>404</b>`,//404页面代码
     "codeBeforHead":`<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
